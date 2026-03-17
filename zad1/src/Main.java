@@ -11,7 +11,7 @@ public class Main {
         int totalSum = helper.calculateSum(data);
         double average = helper.calculateAverage(data);
 
-        System.out.println("Total sum is: " + totalSum);
+        System.out.println("Calkowita suma " + totalSum);
         System.out.println("Average is: " + average);
 
         int min = helper.calculateMin(data);
