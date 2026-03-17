@@ -13,5 +13,8 @@ public class Main {
 
         System.out.println("Total sum is: " + totalSum);
         System.out.println("Average is: " + average);
+
+        int min = helper.calculateMin(data);
+        System.out.println("Min value is: " + min);
     }
 }
