@@ -14,4 +14,17 @@ public class StatisticsHelper {
         int sum = calculateSum(numbers);
         return (double) sum / numbers.length;
     }
+
+    public int calculateMax(int[] numbers) {
+        if (numbers == null || numbers.length == 0) {
+            return 0;
+        }
+        int max = numbers[0];
+        for (int num : numbers) {
+            if (num > max) {
+                max = num;
+            }
+        }
+        return max;
+    }
 }
