@@ -6,4 +6,12 @@ public class StatisticsHelper {
         }
         return sum;
     }
+
+    public double calculateAverage(int[] numbers) {
+        if (numbers == null || numbers.length == 0) {
+            return 0;
+        }
+        int sum = calculateSum(numbers);
+        return (double) sum / numbers.length;
+    }
 }
