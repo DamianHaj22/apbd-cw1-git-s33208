@@ -27,4 +27,17 @@ public class StatisticsHelper {
         }
         return max;
     }
+
+    public int calculateMin(int[] numbers) {
+        if (numbers == null || numbers.length == 0) {
+            return 0;
+        }
+        int min = numbers[0];
+        for (int num : numbers) {
+            if (num < min) {
+                min = num;
+            }
+        }
+        return min;
+    }
 }
