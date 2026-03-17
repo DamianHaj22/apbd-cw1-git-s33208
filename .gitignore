@@ -1,0 +1,12 @@
+# Skompilowane pliki Javy
+*.class
+
+# Foldery z plikami wynikowymi kompilacji (zależnie od edytora)
+/out/
+/target/
+/build/
+
+# Konfiguracja środowisk programistycznych (IDE)
+.idea/
+*.iml
+.vscode/ 
