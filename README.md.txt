@@ -8,3 +8,11 @@ dlatego Git musiał utworzyć 'merge commit', aby je połączyć, bo się rozesz
 
 
 Hello world
+
+ZAD_6
+Różnica między Merge a Rebase
+Merge: zachowuje dokładną, historyczną linię czasu. 
+Jeśli gałęzie się rozeszły, tworzy nowy 'merge commit' i je łączy
+
+Rebase: przepisuje historię. Odrywa commity z naszej gałęzi i dokleja je na samym końcu gałęzi docelowej. 
+Dlatgeo jest chronologicznie
