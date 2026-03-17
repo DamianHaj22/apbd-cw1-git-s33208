@@ -10,11 +10,11 @@ public class Main {
         StatisticsHelper helper = new StatisticsHelper();
         int totalSum = helper.calculateSum(data);
         double average = helper.calculateAverage(data);
+        
 
-        System.out.println("Calkowita suma " + totalSum);
-        System.out.println("Average is: " + average);
-
+        System.out.println("Wynik dodawania wynosi: " + totalSum);
+        System.out.println("Średnia wartosc wynosi: " + average);
         int min = helper.calculateMin(data);
-        System.out.println("Min value is: " + min);
+        System.out.println("Minimalna wartosc wynosi: " + min);
     }
 }
